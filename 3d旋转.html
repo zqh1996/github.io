@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+     div{
+            width:200px;
+            height:200px;
+            background-color: red;
+            transition:transform 2s;
+            margin:200px auto;
+        }
+        div:active{
+          /* 通过x轴来进行旋转 */
+            /* transform:rotateX(90deg) */
+            /* 通过Y轴来进行旋转 */
+            /* transform:rotateY(90deg) */
+            /* 通过Z轴来进行旋转 */
+            /* transform:rotateZ(90deg) */
+            /* transform: rotate3d(x,y,z,90deg) */
+            /* 3d旋转书写简易办法 */
+            transform:rotate3d(1,1,1,90deg);
+        }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>
